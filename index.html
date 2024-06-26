@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <input type="text" autocomplete="off" class="search-input" placeholder="Enter city..." />
+    </header>
+    <main>
+      <section class="location-section">
+        <div class="city-name">San Francisco, US</div>
+        <div class="current-date">Tuesday 23 June 2021</div>
+      </section>
+      <div class="weather-info">
+        <div class="weather-icon" id="weather-icon"></div>
+        <div class="temperature">18<span>°C</span></div>
+        <div class="weather-condition">Cloudy</div>
+        <div class="high-low-temp">15°C / 20°C</div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
